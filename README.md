@@ -1,2 +1,12 @@
 # ThoughtZ--BlogWebstie
-View,create and delete blog posts
+# Express Blog Application
+
+## Description
+This is a simple Express.js application for managing a blog. It allows users to create new blog posts, view existing posts, and delete posts.
+
+## Installation
+To install and run the application, follow these steps:
+```bash
+npm install
+npm start
+
