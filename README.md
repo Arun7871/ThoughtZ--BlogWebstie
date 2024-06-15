@@ -10,7 +10,7 @@ To install and run the application, follow these steps:
 npm install
 node index.js
 
-## Usage
+### Usage
 
 To use the application, follow these steps:
 
