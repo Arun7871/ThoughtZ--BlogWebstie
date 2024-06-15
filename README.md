@@ -8,5 +8,5 @@ This is a simple Express.js application for managing a blog. It allows users to 
 To install and run the application, follow these steps:
 ```bash
 npm install
-npm start
+node index.js
 
