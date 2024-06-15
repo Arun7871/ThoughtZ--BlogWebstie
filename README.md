@@ -9,7 +9,7 @@ To install and run the application, follow these steps:
 ```bash
 npm install
 node index.js
-
+'''
 ## Usage
 
 To use the application, follow these steps:
