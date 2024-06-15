@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Oswald:wght@200..700&family=Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&family=Shadows+Into+Light&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tiny5&display=swap');
+body{
+    margin:0;
+    padding:0;
+    background-image: url('./images/bg6.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height:100vh;
+    display:flex;
+    /* flex-direction: column; */
+    /* align-items:center; */
+    justify-content: center;
+}
+.container {
+    border:solid white;
+    width:30%;
+    height:70%;
+    position:relative;
+    top:10%;
+    border-radius:15%;
+    display:flex;
+    flex-direction:column;
+    font-size:1.5em;
+    /* align-items:center; */
+    /* justify-content:center; */
+}
+h2{
+    color:#F4CE14;
+    font-family:"Lilita","One","display","swap" , sans-serif;
+    margin:15px 10px 13px 13px;
+}
+li{
+    font-family: 'Permanent Marker', 'Indie Flower', 'Oswald', sans-serif;
+    /* font-family:"Lilita+One&family=Shadows+Into+Light&display=swap"; */
+    /* font-family: 'Lilita One', cursive; */
+    color:whitesmoke;
+    font-weight:lighter;
+}
+#btn1,#btn2{
+    color:#6D9886;
+    background-color: #F2E7D5;
+    width:150px;
+    position:relative;
+    align-self: center;
+    border-radius:20%;
+    top:3%;
+    padding:4px;
+    font-family: Oswald;
+}
+ol{
+    margin-top:3px;
+}
+i{
+    margin-right:5px;
+}
+a{
+    color:inherit;
+    text-decoration: none;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+form > div {
+    margin-bottom: 15px;
+}
+
+label {
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+input[type="text"], textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1rem;
+    box-sizing: border-box;
+    background-color: #fff;
+}
+
+textarea {
+    resize: vertical; /* Allow the textarea to be vertically resizable */
+    min-height: 200px; /* Minimum height for the textarea */
+}
+
+button[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 1rem;
+}
+
+button[type="submit"]:hover {
+    background-color: #45a049;
+}
+.container > h1{
+    font-size:1.6em;
+    /* color:#45a049; */
+    color:#F2E7D5;
+    font-family: 'Tiny5', sans-serif;
+}
+.headbottons{
+    display:flex;
+    align-self: center;
+    margin-top:10px;
+    width:70%;
+    justify-content: space-between;
+}
+
+/* Responsive adjustments */
+@media (max-width: 600px) {
+    .container {
+        padding: 20px;
+    }
+    h1 {
+        font-size: 2.5em;
+    }
+    p {
+        font-size: 1em;
+    }
+}
+
